@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>      
+<!-- this declare the document type-->
+<html lang="en">
+<!-- declare the language used in the html file -->
+<head>
+<!-- it contains metadata  about document which is not directly display on the screen -->
+
+<meta charset="UTF-8">
+<!-- for the HTML document. UTF-8 is a widely used encoding that supports virtually all characters from all languages. -->
+<!-- Viewport settings for responsive web design -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<!-- Title of the document -->
+<title>Save-earth</title>
+    
+<!-- Link to the website's favicon -->
+<link href="favicon.ico" rel="icon" type="image/x-icon" />

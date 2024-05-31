@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save-earth</title>
+    <link href="favicon.ico" rel="short-cut" type="image/x-icon" />
+    <style>
+        .bird {
+            width: 200px; /* Adjust size as needed */
+            position: absolute;
+            top: 0; /* Start from top */
+            left: 0; /* Start from left */
+            animation: fly 5s linear infinite;
+        }
+
+        @keyframes fly {
+            0% { left: 0; top: 0; } /* Start position */
+            100% { left: calc(100% - 200px); top: calc(100% - 200px); } /* End position, ensuring bird stays within viewport */
+        }
+
+        .centered-image {
+            display: block;
+            margin: 0 auto;
+        }
+
+        body {
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <img src="flying.gif" alt="Flying Bird" class="bird">
+    <h1><img src="./bird-fly.gif" alt="bird"
+        style="width: 30%; max-width: 100px;"> If we want to protect our earth, then we should definitely plant 100 trees per person per year.</h1>
+    <hr style="height: 2px; border-width:0; color:gray;background-color:rgb(148, 213, 235)">
+    <p>In this <b>summer</b>, everyone feels how badly affected the <b><i>earth</i></b> is. Every city faces temperatures from a minimum of 28°C to 55°C.
+        <i>We all know there is only one way to stop this heat-flow, and that is to plant as many plants as we can.</i>
+    </p>
+    <img src="green_curci_tree.gif" 
+    alt="plant-gif"
+    style="width: 100%; max-width: 600px;"
+    class="centered-image" />
+</body>
+</html>
